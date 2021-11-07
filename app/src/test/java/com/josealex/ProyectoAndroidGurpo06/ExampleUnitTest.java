@@ -1,4 +1,4 @@
-package com.josealex.miproyecto;
+package com.josealex.ProyectoAndroidGurpo06;
 
 import org.junit.Test;
 
