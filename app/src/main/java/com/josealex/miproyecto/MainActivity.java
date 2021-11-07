@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Intent newintent = new Intent(this, SecondActivity.class);
         newintent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         newintent.putExtra("msg","Hola");
-        newintent.putExtra("year","2021");
+        newintent.putExtra("year",2021);
         startActivity(newintent);
     }
 

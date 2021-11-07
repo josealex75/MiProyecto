@@ -20,8 +20,8 @@ public class SecondActivity extends AppCompatActivity {
     public void getParametro(){
         Bundle Extras = getIntent().getExtras();
         String msg = Extras.getString("msg");
-        int ano = Extras.getInt("year");
-        Toast.makeText(this,msg + " "+ ano, Toast.LENGTH_LONG);
+        int year = Extras.getInt("year");
+        Toast.makeText(this,msg+ " "+year, Toast.LENGTH_LONG).show();
     }
 
     public void goToActivityMain(View View){
